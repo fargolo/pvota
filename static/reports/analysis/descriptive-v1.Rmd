@@ -1,13 +1,14 @@
 ---
 title: "Analise da prova INEP 2015"
-author: "Felipe Argolo (pingfreud)"
-date: "May 4, 2018"
+author: "Felipe Argolo (a.k.a. 'pingfreud')"
+date: "May 6, 2018"
 output: html_document
 ---
 
 ## Notas por estado
 
-
+Dados obtidos do portal oficial INEP (http://portal.inep.gov.br/web/guest/inicio).  
+Prova nacional aplicada em 2015. Análises preliminares.  
 ```{r,include=FALSE,echo = FALSE}
 library(xlsx)
 library(knitr)

@@ -28,7 +28,7 @@ Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 Testado em Ubuntu 16.04
 
 ## Como rodar
-Instale o [Yesod](https://www.yesodweb.com/).
+Instale o [Yesod](https://www.yesodweb.com/).  
 `$git clone https://github.com/fargolo/povoVota.git`  
 `$stack build && stack exec -- yesod devel`  
 O server ficará ativo em http://localhost:3000  
