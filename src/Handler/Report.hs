@@ -9,5 +9,5 @@ import Import
 
 getReportR :: Handler ()
 getReportR = do
-    let indexPath = "static/static_bcp/outputs/descriptive-v1.html"
+    let indexPath = "static/reports/outputs/descriptive-v1.html"
     sendFile "text/html" indexPath

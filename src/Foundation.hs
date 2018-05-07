@@ -53,8 +53,6 @@ data MenuTypes
 -- type Widget = WidgetT App IO ()
 mkYesodData "App" $(parseRoutesFile "config/routes")
 
--- | A convenient synonym for creating forms.
-type Form x = Html -> MForm (HandlerFor App) (FormResult x, Widget)
 
 -- Please see the documentation for the Yesod typeclass. There are a number
 -- of settings which can be configured by overriding methods here.
@@ -179,9 +177,6 @@ instance YesodBreadcrumbs App where
 
 -- This instance is required to use forms. You can modify renderMessage to
 -- achieve customized and internationalized form validation messages.
-instance RenderMessage App FormMessage where
-    renderMessage :: App -> [Lang] -> FormMessage -> Text
-    renderMessage _ _ = defaultFormMessage
 
 -- Useful when writing code that is re-usable outside of the Handler context.
 -- An example is background jobs that send email.
