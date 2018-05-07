@@ -16,7 +16,6 @@ import Import
 -- inclined, or create a single monolithic file.
 getHomeR :: Handler Html
 getHomeR = do
-    let handlerName = "getHomeR" :: Text
     defaultLayout $ do
         setTitle "Povo Vota"
         $(widgetFile "homepage")
