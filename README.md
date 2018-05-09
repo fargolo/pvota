@@ -35,3 +35,4 @@ O server ficará ativo em http://localhost:3000
 
 ## To do:
 ( ) Aperfeiçoar análise  
+( ) Buscar paralelos em outros países (Dinamarca?)
