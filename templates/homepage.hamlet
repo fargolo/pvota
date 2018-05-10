@@ -6,7 +6,7 @@
             <h2>
                 O povo não deve temer seu governo. 
             <a href="@{ReportR}" .btn.btn-info.btn-lg>
-                Leia nossos relatórios
+                Último relatório  
 
 <div .container>
     <!-- Starting
@@ -18,12 +18,11 @@
                     <h1 #start>Sobre
 
                     <p>
-                        Uma plataforma colaborativa de engajamento político
+                        Fortalecendo a democracia representativa através de jornalismo baseado em dados, acesso aberto e soluções em tecnologia.  
                     <p>
-                        Uma iniciativa do <a href=http://raulhc.cc/>Raul Hacker Club</a>
+                        Um projeto iniciado em <a href=http://raulhc.cc/>Raul Hacker Club</a>. 
                     <p>
-                        Mais informações em nosso <a href=https://github.com/fargolo/pvota> repositório aberto </a>
+                        Quer colaborar? Confira nossa <a href=https://github.com/fargolo/pvota/blob/master/README.md>base aberta</a>.   
                     <p>
-                        Quer colaborar ou tem dúvidas e sugestões? Junte-se a nós no <a href =https://t.me/joinchat/C8ro6A9ZvIBW8uRuBpA7cw>Telegram</a>
-                        
+                        Também pode falar diretamente no grupo aberto via <a href =https://t.me/joinchat/C8ro6A9ZvIBW8uRuBpA7cw>Telegram</a>.  
     <hr>
