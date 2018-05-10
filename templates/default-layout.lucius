@@ -15,6 +15,7 @@
 .masthead {
     margin-top: -21px;
     color: white;
+    background-image: url(@{StaticR header_jpg});
     text-align: center;
     min-height: 500px;
 }
