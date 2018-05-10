@@ -14,4 +14,4 @@ import Import
 --    sendFile "text/html" indexPath
 getReportR :: Handler TypedContent
 getReportR = return $ TypedContent "text/html"  
-                    $ toContent $(embedFile "static/reports/outputs/descriptive-v3.htmo")
+                    $ toContent $(embedFile "static/reports/outputs/descriptive-v3.html")
