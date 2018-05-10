@@ -2,7 +2,7 @@
     <div .container>
         <div .row>
             <h1 .header>
-                Povo vota - Saiba quem defende você na política
+                Povo Vota
             <h2>
                 O povo não deve temer seu governo. 
             <a href="@{ReportR}" .btn.btn-info.btn-lg>
