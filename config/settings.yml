@@ -25,5 +25,5 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 # mutable-static: false
 # skip-combining: false
 
-copyright: Developed by Felipe Argolo
+copyright: cc. license ©
 #analytics: UA-YOURCODE
