@@ -1,38 +1,48 @@
 # povoVota
 
+[Povo vota](https://povovota.herokuapp.com)
+
 Projeto iniciado para promover engajamento politico. Em construção. Sou o único desenvolvedor do projeto atualmente. Aceito ajuda e quaisquer sugestões :)
 
+PRECISAMOS DE PESSOAS DISPOSTAS A ESCREVER SOBRE A REDE DE EDUCAÇÃO. TEMOS RESULTADOS INTERESSANTES PARA DISCUSSÃO. JORNALISTAS SÃO BEM-VINDOS.  
+
 ## Roadmap
-### 1 . Transparencia / Inbound marketing
-Por sugestão da Edely (https://github.com/Edely), comecei fazendo um portal divulgando dados públicos processados.
-Pensando na disseminação de conhecimento, comecei pela prova do Inep para educação básica.
+### 1 . Transparencia / Ideias
+Por sugestão da Edely do Grupo de Dados e Mineração (https://github.com/Edely), comecei fazendo um portal divulgando dados públicos processados.  
+Escolhi o tema de educação e os dados da prova do Inep para educação básica (5ª, 9ª e 12ª ano).  
+Descobri que as notas de escolas Rurais são menores em média. Alguns outros achados interessantes podem ser encontrados nos relatórios.
 
 ### 2 . Portal de eleitores
-Desenvolver um portal (webserver com banco de dados) com cadastros de eleitores validados pelo TSE.
-Esse transmitirá informações relacionadas a quais pessoas apoiam quais causas aos políticos. O objetivo é colocar pautas populares entre as principais promessas de campanha.
+Desenvolver alguma solução eficiente, portal (webserver com banco de dados) e  cadastros de eleitores validados pelo TSE.  
+Fortalecer a democracia representativa deixando o fluxo de informações mais aberto.Costumamos receber poucas informações oficiais de forma confiável.
+O objetivo é colocar pautas importantes (e.g. educação e saúde) em discussão e envolver políticos no processo. Gostaria de saber melhor sobre o que já se foi feito nessa área.  
 
 ### 3 . Mobile / Social Media
-Meio para que os cadastrados possam divulgar suas preferências a conhecidos.
 
 ## Stack atual:
 #### Webscrapping e análise 
-* R Base
-    * xlsx
-    * knitr
-    * purrr
-    * dplyr
-    * RCurl
+* R 
+    * Desenvolvido em .Rmd (RMarkdown e convertido em .html).  
+    * Análises em static/reports/analysis.  
+    * Outputs a serem servidos em static/reports/outputs.  
 #### Webserver
-* Yesod
+* Yesod/Haskell
+    * Framework seguro (type safe URLs, etca).  
+    * Server leve e de alta performance.  
 
-Testado em Ubuntu 16.04
+Testado em Ubuntu 16.04  
 
-## Como rodar
+## Deploy
 Instale o [Yesod](https://www.yesodweb.com/).  
 `$git clone https://github.com/fargolo/povoVota.git`  
 `$stack build && stack exec -- yesod devel`  
-O server ficará ativo em http://localhost:3000  
+O app está configurado para escutar na porta 3000, mas é suprimido se a variavel$PORT estiver definida.  
+A versão atual está rodando em cloud com Heroku. A ideia é talvez migrar para docker ou algo assim no futuro.  
+
 
 ## To do:
-( ) Aperfeiçoar análise  
-( ) Buscar paralelos em outros países (Dinamarca?)
+( ) Aplicar CSS no html gerado pelo RStudio.  
+( ) Jornalistas que queiram escrever sobre edução.    
+    - Temos achados interessantes (Rural vs. Urbano/ Escolas Federais).  
+    - Entrevistar diretores e alunos?  
+( ) Buscar paralelos em outros países (Dinamarca?).  
