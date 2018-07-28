@@ -2,11 +2,14 @@
     <div .container>
         <div .row>
             <h1 .header>
-                Povo Vota
+                Transparência Bahia
             <h2>
-                O povo não deve temer seu governo. 
+                Dados públicos à disposição dos cidadãos. 
             <a href="@{ReportR}" .btn.btn-info.btn-lg>
-                Último relatório  
+                Relatório INEP 
+            <a href="@{DatasetR}" .btn.btn-info.btn-lg>
+                Despesas Camara-SSA 
+
 
 <div .container>
     <!-- Starting
@@ -20,9 +23,9 @@
                     <p>
                         Fortalecendo a democracia representativa através de jornalismo baseado em dados, acesso aberto e soluções em tecnologia.  
                     <p>
-                        Um projeto iniciado em <a href=http://raulhc.cc/>Raul Hacker Club</a>. 
+                        Uma iniciativa aberta, apoiada por membros do <a href=http://raulhc.cc/>Raul Hacker Club</a> e da <a href=http://osbrasil.org.br/> OSB Brasil. </a> 
                     <p>
-                        Quer colaborar? Confira nossa <a href=https://github.com/fargolo/pvota/blob/master/README.md>base aberta</a>.   
+                        Quer colaborar? Confira nosso <a href=https://github.com/raulhackerclub/camara-vereadores-salvador>repositório</a>.  
                     <p>
                         Também pode falar diretamente no grupo aberto via <a href =https://t.me/joinchat/C8ro6A9ZvIBW8uRuBpA7cw>Telegram</a>.  
     <hr>

@@ -35,8 +35,8 @@
     font-size: 4.5em;
     line-height: 1.2em;
     font-weight: normal;
-    background-color: black;
-    color: #fff; 
+    background-color: #fff;
+    color: black; 
     display: inline;
     padding: 0.5rem;
     
