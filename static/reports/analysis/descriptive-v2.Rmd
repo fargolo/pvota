@@ -21,7 +21,7 @@ library(dplyr)
 library(car)
 library(ggplot2)
 setwd("~/pvota/static/reports/analysis/")
-inep2015_df <- read.xlsx("../data/estados-saeb-2015-clean-v2.xlsx",sheetIndex=1)
+inep2015_df <- read.xlsx("../data/saeb/estados-saeb-2015-clean-v2.xlsx",sheetIndex=1)
 ```
 
 
