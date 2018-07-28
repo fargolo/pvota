@@ -29,3 +29,5 @@ http://santoantoniodejesus.osbrasil.org.br/
  
 ## Raul Hacker Club
 Hackerspace soteropolitano.  
+---
+Contribuições por *@brunotuy @ladeia @gomex @fargolo @abade @george*
